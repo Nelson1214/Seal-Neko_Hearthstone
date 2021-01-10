@@ -1,0 +1,399 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8"/><title>Battlegrounds Heroes - HSReplay.net</title><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="twitter:site" content="@HSReplayNet"/><link rel="icon" type="image/x-icon" href="https://static.hsreplay.net/static/images/favicon-battlegrounds.c43517b93433.ico"/><link rel="icon" type="image/png" href="https://static.hsreplay.net/static/images/favicon-battlegrounds-16x16.0aaf4e953fbe.png"/><link rel="icon" type="image/png" href="https://static.hsreplay.net/static/images/favicon-battlegrounds-32x32.6ddcf87c699d.png"/><link rel="apple-touch-icon" sizes="400x400" href="https://static.hsreplay.net/static/images/hsreplay-thumbnail.1f150253c208.png"/><link rel="mask-icon" href="https://static.hsreplay.net/static/images/mask-icon.ac66bd001f0d.svg" color="#361637"/><meta name="msapplication-TileColor" content="#361637"/><link rel="stylesheet" href="https://static.hsreplay.net/static/vendor/bootstrap/css/bootstrap.min.5c7070ef655a.css" type="text/css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" type="text/css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800" type="text/css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/><link rel="search" type="application/opensearchdescription+xml" href="https://static.hsreplay.net/static/opensearch.57d7489a7c13.xml" title="HSReplay.net"/><link rel="stylesheet" href="https://static.hsreplay.net/static/fonts/belwefs_extrabold_macroman/stylesheet.0f30a45f3430.css" type="text/css"/><link rel="alternate" hreflang="en" href="https://hsreplay.net/battlegrounds/heroes/?hl=en"/><link rel="alternate" hreflang="fr" href="https://hsreplay.net/battlegrounds/heroes/?hl=fr"/><link rel="alternate" hreflang="de" href="https://hsreplay.net/battlegrounds/heroes/?hl=de"/><link rel="alternate" hreflang="ko" href="https://hsreplay.net/battlegrounds/heroes/?hl=ko"/><link rel="alternate" hreflang="es" href="https://hsreplay.net/battlegrounds/heroes/?hl=es"/><link rel="alternate" hreflang="es-mx" href="https://hsreplay.net/battlegrounds/heroes/?hl=es-mx"/><link rel="alternate" hreflang="ru" href="https://hsreplay.net/battlegrounds/heroes/?hl=ru"/><link rel="alternate" hreflang="zh-hant" href="https://hsreplay.net/battlegrounds/heroes/?hl=zh-hant"/><link rel="alternate" hreflang="zh-hans" href="https://hsreplay.net/battlegrounds/heroes/?hl=zh-hans"/><link rel="alternate" hreflang="it" href="https://hsreplay.net/battlegrounds/heroes/?hl=it"/><link rel="alternate" hreflang="pt-br" href="https://hsreplay.net/battlegrounds/heroes/?hl=pt-br"/><link rel="alternate" hreflang="pl" href="https://hsreplay.net/battlegrounds/heroes/?hl=pl"/><link rel="alternate" hreflang="ja" href="https://hsreplay.net/battlegrounds/heroes/?hl=ja"/><link rel="alternate" hreflang="th" href="https://hsreplay.net/battlegrounds/heroes/?hl=th"/><link rel="alternate" hreflang="x-default" href="https://hsreplay.net/battlegrounds/heroes/"/><meta property="og:type" content="website"/><meta property="og:site_name" content="HSReplay.net"/><meta property="og:locale" content="en_US"/><meta property="og:image" content="https://static.hsreplay.net/static/images/hsreplay-thumbnail.1f150253c208.png"/><meta property="og:image:width" content="400"/><meta property="og:image:height" content="400"/><meta property="fb:app_id" content="1278788528798942"/><meta property="og:title" content="Battlegrounds Heroes"/><meta name="apple-mobile-web-app-title" content="HSReplay.net"/><meta name="theme-color" content="#231924"/>
+
+	<link type="text/css" href="https://static.hsreplay.net/static/webpack/main.f8a08e081dd344f30dd4c68f3496b0ed.css" rel="stylesheet" />
+
+	
+		<script type="application/json" id="userdata">{"site": {"languages": {"en": "English", "fr": "Fran\u00e7ais", "de": "Deutsch", "ko": "\ud55c\uad6d\uc5b4", "es": "Espa\u00f1ol (Espa\u00f1a)", "es-mx": "Espa\u00f1ol (Latinoam\u00e9rica)", "ru": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439", "zh-hant": "\u7e41\u9ad4\u4e2d\u6587(\u53f0\u7063)", "zh-hans": "\u4e2d\u6587\uff08\u7b80\u4f53\uff09", "it": "Italiano", "pt-br": "Portugu\u00eas (Brasil)", "pl": "Polski", "ja": "\u65e5\u672c\u8a9e", "th": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22"}, "stripe_pk": "pk_live_9pvzEtsIZ443pFCtPnIJNMg000XCUm73Um", "urls": {"account_login": "/account/login/", "battlenet_login": "/account/battlenet/login/", "battlenet_login_cn": "/account/battlenet/login/?region=cn"}}, "features": {"meta-region-filter": {"enabled": true}, "deck-region-filter": {"enabled": true}, "region-filter-china": {"enabled": true}, "promo-stream": {"enabled": true}, "billing": {"enabled": true}, "new-card-filter": {"enabled": true}, "frontend-translations": {"enabled": true}, "ads": {"enabled": true}, "personal-stats-dynamodb": {"enabled": true}, "current-expansion-filter": {"enabled": true}, "careers-page": {"enabled": true}, "current-expansion-filter-preview": {"enabled": true}, "pilot-performance": {"enabled": true}, "twitch-vods-language": {"enabled": true}, "twitch-vods": {"enabled": true}, "networkn": {"enabled": true}, "ad-fallback": {"enabled": true}, "mulligan-guide-coin-filter": {"enabled": true}, "paywall-transparent": {"enabled": true}, "intercom": {"enabled": true}, "xsolla": {"enabled": true}, "popovers": {"enabled": true}, "twitch-vods-popover": {"enabled": true}, "translation-popover": {"enabled": true}, "battlegrounds-subscription": {"enabled": true}, "battlegrounds": {"enabled": true}, "bgs-heroes-personal-stats-promo": {"enabled": true}, "ads-enthusiast-gaming": {"enabled": true}, "combo-subscription": {"enabled": true}, "bgs-minions-preset-turns": {"enabled": true}, "new-rank-system-popularity": {"enabled": true}, "battlegrounds-personal-stats": {"enabled": true}, "querynames-v2": {"enabled": true}, "new-rank-system": {"enabled": true}, "premium-packages": {"enabled": true}, "current-expansion-filter-meta": {"enabled": true}, "battlegrounds-tribes": {"enabled": true}, "new-cards-page": {"enabled": true}, "bgs-heroes-top1-top5-mmr": {"enabled": true}}, "paywall": {"enabled": false, "dismissable": true, "visit_limit": 5}, "products": {"premium": {"id": 1}, "battlegrounds": {"id": 2}}, "user": {"is_authenticated": false, "ipcountry": "TW", "locale": "en", "hearthstone_locale": "enUS", "available_trials": []}}</script>
+		<script type="text/javascript">_userdata = JSON.parse(document.getElementById("userdata").textContent);</script>
+	
+
+	
+		<script type="application/json" id="ads">["mp-d-11", "dl-d-5", "cl-d-3", "cd-d-3", "dd-d-9", "mr-d-3", "rp-d-1", "mr-d-8", "mr-d-9", "mp-d-1", "tr-d-1", "tr-d-2", "ds-d-1", "ds-d-2", "mr-d-12", "ad-d-1", "dl-d-1", "mr-d-13", "mr-d-16", "mr-d-17", "dl-d-2", "mr-d-19", "mr-d-20", "dd-d-1", "dd-d-2", "cl-d-1", "cl-d-2", "mr-d-1", "mp-d-12", "fp-d-3", "fp-d-4", "cl-d-4", "ds-d-3", "cd-d-1", "mp-d-5", "mr-d-2", "ad-d-3", "mp-d-2", "fp-m-1", "fp-m-2", "rp-mpu3", "cd-d-2", "ad-d-5", "dd-d-10", "mr-d-4", "mr-d-5", "mr-d-21", "mr-d-23", "mr-d-24", "mr-d-25", "mp-d-6", "mr-d-27", "fp-m-4", "fp-m-5", "tr-m-1", "tr-m-3", "tr-m-2", "ds-m-1", "ds-m-2", "dd-v-1", "cl-mmpu2", "tr-skyleft", "mp-m-5", "mp-m-4", "mp-m-3", "mp-m-2", "mp-m-1", "dl-m-1", "dl-m-3", "dd-m-1", "dd-m-2", "dd-m-3", "cd-m-1", "cd-m-2", "cd-m-3", "cl-m-1", "mr-m-1", "mr-m-2", "mr-m-3", "mr-m-4", "tr-bb1", "tr-skyright", "tr-mmpu1", "tr-mmpu2", "fp-mmpu1", "fp-mmpu2", "fp-skyleft", "fp-skyright", "dl-mlb1", "mp-mpu1", "mp-mmpu1", "mp-mmpu2", "ad-bb1", "ad-mpu1", "ad-mmpu1", "ad-mmpu2", "ad-bb2", "home-mobile-sticky-lb", "dl-mpu1", "dl-mmpu2", "meta-skinr", "dd-bb2", "dd-mpu1", "cl-bb1", "mp-mlb1", "dd-mmpu1", "dd-mmpu2", "cl-mmpu1", "cd-bb1", "cd-mpu1", "cd-mmpu1", "cd-mmpu2", "mr-mmpu1", "co-mmpu2", "mr-bb1", "mr-mpu1", "cl-mpu2", "co-bb1", "co-mpu1", "co-mpu2", "mp-mpu2", "fp-skinr", "ad-mlb1", "meta-inline-lb-tier1", "dd-bb1", "cl-mlb1", "dd-mlb1", "cd-mlb1", "dd-lb1", "ad-lb2", "dd-lb2", "fp-mlb1", "cl-mpu1", "mp-bb1", "dl-lb2", "mr-mmpu2", "co-mmpu1", "tr-skinl", "dl-mmpu1", "meta-sidebar-hpu", "fp-skinl", "home-lb-inline", "mp-lb1", "trending_lb1", "meta-inline-lb-tier3", "decks-top-lb", "decks-sidebar-mpu", "decks-inline-lb", "cards-sticky-lb", "cards-sidebar-mpu", "cards-sidebar-hpu", "card-detail-top-lb", "card-detail-sidebar-mpu", "card-detail-end-lb", "deck-detail-top-lb", "deck-detail-sidebar-mpu", "deck-detail-end-lb", "archetype-detail-top-lb", "archetype-detail-hpu", "archetype-detail-end-lb", "trending-inline-mpu", "dl-bb1", "decks-mobile-top-lb", "decks-mobile-sticky-lb", "meta-mobile-sticky-lb", "decks-mobile-inline-mpu", "trending-mobile-sticky-lb", "meta-mobile-inline-lb-tier2", "meta-mobile-inline-lb-tier3", "cards-mobile-top-lb", "cards-mobile-sticky-lb", "home-inline-lb", "trending-sticky-lb", "trending-top-lb", "tr-skinr", "home-mobile-top-lb", "home-mobile-inline-lb", "trending-mobile-inline-mpu", "deck-detail-mobile-sticky-lb", "deck-detail-mobile-inline-lb", "card-detail-mobile-sticky-lb", "card-detail-mobile-inline-lb", "archetype-detail-mobile-sticky-lb", "archetype-detail-mobile-inline-lb1", "archetype-detail-mobile-inline-lb2", "bgs-skyleft", "bgs-skyright", "battlegrounds-top-lb", "battlegrounds-mobile-sticky-lb", "battlegrounds-mobile-inline-lb"]</script>
+		<script type="text/javascript">_ads = JSON.parse(document.getElementById("ads").textContent);</script>
+	
+
+    
+
+	
+
+	
+
+
+<script type="application/json" id="payment-details-data">
+	{
+		"stripe": {
+			"apiKey": "pk_live_9pvzEtsIZ443pFCtPnIJNMg000XCUm73Um",
+			"target": "/account/billing/stripe/subscribe/?next=/battlegrounds/heroes/",
+			
+			"plans": [
+				{
+					"stripeId": "hearthsim-premium-monthly",
+					"description": "$4.99 USD/month",
+					"amount": 499,
+					"currency": "usd"
+				},
+				{
+					"stripeId": "hearthsim-premium-semiannual",
+					"description": "$25.00 USD every 6 months",
+					"amount": 2500,
+					"currency": "usd"
+				}
+			]
+		},
+		"paypal": {
+			"target": "/account/billing/paypal/subscribe/?next=/battlegrounds/heroes/",
+			"plans": [
+				{
+					"paypalId": "P-5K196779EK462345DIR32G2Y",
+					"description": "$5.49 USD/month",
+					"amount": "5.49",
+					"currency": "USD"
+				},
+				{
+					"paypalId": "P-4V480372LD641991WIR32UXI",
+					"description": "$25.50 USD every 6 months",
+					"amount": "25.5",
+					"currency": "USD"
+				}
+			]
+		}
+	}
+</script>
+
+<script type="text/javascript" src="https://static.hsreplay.net/static/vendor/jquery.min.4f252523d4af.js"></script>
+<script type="text/javascript" src="https://static.hsreplay.net/static/vendor/bootstrap/js/bootstrap.min.5869c96cc8f1.js"></script>
+
+	
+	
+		<script src="https://static.hsreplay.net/static/vendor/raven.min.3c5534ee7c0a.js"></script>
+		<script>
+			if (Raven && typeof Raven.config === "function") {
+				var raven = Raven.config("https://a15ebfa302a24d51a9a201c69acff130@sentry.io/116359", {
+					release: "b53573d23e863529a5afb3c5555083f116b021cf",
+					environment: "production",
+					ignoreErrors: [/__firefox__/],
+					whitelistUrls: [/https:\/\/hsreplay\.net/],
+					tags: {
+						locale: "en",
+					},
+				}).install();
+				
+			}
+		</script>
+	
+
+
+
+	
+	
+	
+	
+	
+		
+			
+			
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TNWZ7LM');</script>
+<!-- End Google Tag Manager -->
+
+		
+	
+	
+
+<script type="text/javascript" src="https://static.hsreplay.net/static/webpack/vendor.2e54517267108286f91d.js" ></script>
+<script type="text/javascript" src="https://static.hsreplay.net/static/webpack/site.7f7935de2314522179db.js" async></script>
+
+	
+		<script type="text/javascript">(function(i, s, o, g, r, a, m) {
+	i["GoogleAnalyticsObject"] = r;
+	i[r] = i[r] || function() {
+		(i[r].q = i[r].q || []).push(arguments)
+	}, i[r].l = 1 * new Date();
+	a = s.createElement(o),
+	m = s.getElementsByTagName(o)[0];
+	a.async = 1;
+	a.src = g;
+	m.parentNode.insertBefore(a, m)
+})(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+ga("create", "UA-81509238-1", "auto");
+ga("set", "transport", "beacon");
+if(typeof _userdata === "object" && typeof _userdata.userid !== "undefined") {
+	ga("set", "userId", _userdata.userid);
+}
+ga("set", "dimension1", "en");
+ga("set", "dimension2", "Free User");
+ga("set", "dimension3", "Anonymous");
+
+ga("set", "dimension4", "Enthusiast Gaming");
+ga("send", "pageview", {
+	page: location.pathname,
+});</script>
+	
+	
+</head>
+<body>
+	
+	
+	
+	
+	
+	
+		
+			
+			
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNWZ7LM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+		
+	
+	
+
+	
+		<style >
+			body {
+				background-color: #eae2eb;
+			}
+		</style>
+	
+
+	<header class="site-header">
+		
+			
+
+
+
+
+
+<div
+	class="navbar navbar-hsreplay navbar-battlegrounds"
+>
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="/battlegrounds/">
+			<img src="https://static.hsreplay.net/static/images/logo.2a63528feaa2.png" id="navbar-logo" alt="HSReplay" height="50" width="43" />
+			<h1>HSReplay.net</h1>
+		</a>
+	</div>
+
+	<div class="container-fluid">
+		<nav class="collapse navbar-collapse" id="navbar-collapse">
+			<h2 class="sr-only">Site navigation</h2>
+			
+				
+					<ul class="nav navbar-nav">
+						
+							<li>
+								<a href="/" class="battlegrounds-button" id="navbar-button-battlegrounds">
+									<img
+											src="https://static.hsreplay.net/static/images/classic.52290b942bc0.png"
+											alt="HSReplay.net Classic"
+											height="22"
+									/>
+									<span class="hidden-sm hidden-md">Classic</span>
+									<span class="fa fa-long-arrow-right" aria-hidden="true"></span>
+								</a>
+							</li>
+						
+
+						
+							<li class="active">
+								<a href="/battlegrounds/heroes/" id="navbar-link-battlegrounds-heroes">
+									<img
+										src="https://static.hsreplay.net/static/images/battlegrounds/icons/heroes.dd86546937ab.svg"
+										class="navbar-battlegrounds__icon"
+										aria-hidden="true"
+									/>
+									<span class="hidden-sm hidden-md">Heroes</span>
+								</a>
+							</li>
+							<li>
+								<a href="/battlegrounds/minions/" id="navbar-link-battlegrounds-minions" class="text-premium">
+									<img
+										src="https://static.hsreplay.net/static/images/battlegrounds/icons/minions.240527ebebed.svg"
+										class="navbar-battlegrounds__icon"
+										aria-hidden="true"
+									/>
+									<span class="hidden-sm hidden-md">Minions</span>
+								</a>
+							</li>
+							<li>
+								<a href="/battlegrounds/compositions/" id="navbar-link-battlegrounds-compositions" class="text-premium">
+									<img
+										src="https://static.hsreplay.net/static/images/battlegrounds/icons/compositions.41920bb048db.svg"
+										class="navbar-battlegrounds__icon"
+										aria-hidden="true"
+									/>
+									<span class="hidden-sm hidden-md">Compositions</span>
+								</a>
+							</li>
+							<li id="navbar-link-premium">
+								<a href="/battlegrounds/tier7/" class="text-premium"><img
+										src="https://static.hsreplay.net/static/images/battlegrounds/icons/tier7-small.d5b1e2fe5d8f.svg"
+										class="navbar-battlegrounds__icon"
+										aria-hidden="true"
+									/><span>Tier7</span></a>
+							</li>
+						
+					</ul>
+				
+
+				<ul
+					class="nav navbar-nav navbar-right"
+					id="user-nav"
+					data-site-section="battlegrounds"
+					data-hide-login="0"
+				></ul>
+			
+		</nav>
+	</div>
+	
+	
+</div>
+
+		
+	</header>
+
+	
+
+	<div id="site-mobile-promo"></div>
+
+	
+	<div id="content">
+	
+<script type="application/json" id="react_context">{}</script>
+<div id="battlegrounds_heroes-container"></div>
+
+	<script type="text/javascript" src="https://static.hsreplay.net/static/webpack/battlegrounds.e0dce9602338da60f379.js" ></script>
+
+	<script type="text/javascript" src="https://static.hsreplay.net/static/webpack/battlegrounds_heroes.53e0c4ca9668baba2388.js" ></script>
+
+
+	</div>
+	
+
+	
+		<footer class="site-footer site-footer-battlegrounds">
+			
+				
+
+
+
+
+<div class="container">
+	<p class="visible-xs text-center prominent">
+		<a href="#">&uparrow; Back to top</a>
+	</p>
+	<div class="row">
+		<div class="col-lg-4 col-md-4">
+			<div class="row footer-brand">
+				<a href="/">
+					<img src="https://static.hsreplay.net/static/images/logo.2a63528feaa2.png" id="footer-logo" alt="HSReplay" />
+					<h1>HSReplay.net</h1>
+				</a>
+			</div>
+			<section>
+				<h2 class="sr-only">Social Media</h2>
+				<ul class="horizontal-icons">
+					
+					<li><a href="https://discord.gg/hearthsim" target="_blank" rel="noopener" class="social-button"><span class="sr-only">Join our Discord server</span><svg width="28" height="28" viewBox="0 0 245 240"><path style="fill:#e5d4e7" d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"></path><path style="fill:#e5d4e7" d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"></path></svg></a></li><li><a href="https://twitter.com/HSReplayNet" target="_blank" rel="noopener" class="social-button"><span class="sr-only">Follow us on Twitter</span><svg width="25" height="25" viewBox="0 0 612 612"><path style="fill:#e5d4e7" d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411 c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513 c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101 c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104 c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194 c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485 c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"></path></svg></a></li><li><a href="https://www.facebook.com/HSReplayNet" target="_blank" rel="noopener" class="social-button"><span class="sr-only">Like us on Facebook</span><svg width="24" height="24" viewBox="0 0 1365.3333 1365.3333"><g transform="matrix(1.3333333,0,0,-1.3333333,0,1365.3333)"><g transform="scale(0.1)"><path style="fill:#e5d4e7" d="m 10240,5120 c 0,2827.7 -2292.3,5120 -5120,5120 C 2292.3,10240 0,7947.7 0,5120 0,2564.46 1872.31,446.301 4320,62.1992 V 3640 H 3020 v 1480 h 1300 v 1128 c 0,1283.2 764.38,1992 1933.9,1992 560.17,0 1146.1,-100 1146.1,-100 V 6880 H 6754.38 C 6118.35,6880 5920,6485.33 5920,6080.43 V 5120 H 7340 L 7113,3640 H 5920 V 62.1992 C 8367.69,446.301 10240,2564.46 10240,5120" /><path style="fill-opacity:0;fill-rule:nonzero;stroke:none" d="m 7113,3640 227,1480 H 5920 v 960.43 c 0,404.9 198.35,799.57 834.38,799.57 H 7400 v 1260 c 0,0 -585.93,100 -1146.1,100 C 5084.38,8240 4320,7531.2 4320,6248 V 5120 H 3020 V 3640 H 4320 V 62.1992 C 4580.67,21.3008 4847.84,0 5120,0 c 272.16,0 539.33,21.3008 800,62.1992 V 3640 h 1193"/></g></g></svg></a></li><li><a href="https://www.instagram.com/hsreplaynet/" target="_blank" rel="noopener" class="social-button"><span class="sr-only">Follow us on Instagram</span><svg width="24" height="24" viewBox="0 0 24 24"><path style="fill:#e5d4e7" d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a></li>
+					
+				</ul>
+			</section>
+			<p class="footer-copyright">
+				&copy; 2021
+				<a href="https://hearthsim.net/" target="_blank" rel="noopener">
+					HearthSim, LLC
+				</a>
+				<br />
+				Not affiliated with Blizzard Entertainment.
+			</p>
+		</div>
+		<div class="col-lg-8 col-md-8">
+			<div class="row">
+				<section class="col-lg-3 col-md-6 col-sm-6 footer-menu">
+					<h2>HSReplay.net</h2>
+					<ul>
+						<li><a href="/downloads/">Downloads</a></li>
+						<li><a href="/premium/">Premium</a></li>
+						<li><a href="/battlegrounds/">Battlegrounds</a></li>
+						<li><a href="/battlegrounds/tier7/">Tier7</a></li>
+					</ul>
+				</section>
+				<section class="col-lg-3 col-md-6 col-sm-6 footer-menu">
+					<h2>Support</h2>
+					<ul>
+						<li><a href="/account/">Your Account</a></li>
+						<li>
+							<a
+								href="https://help.hearthsim.net/en/collections/2207447-battlegrounds"
+								target="_blank"
+								rel="noopener"
+							>Help Center</a>
+						</li>
+						<li><a href="/contact/">Contact Us</a></li>
+					</ul>
+				</section>
+				<div class="clearfix visible-md-block visible-sm-block"></div>
+				<section class="col-lg-3 col-md-6 col-sm-6 footer-menu">
+					<h2>Legal</h2>
+					<ul>
+						<li>
+							<a href="https://hearthsim.net/legal/terms-of-service.html" target="_blank" rel="noopener">Terms of Service</a>
+						</li>
+						<li>
+							<a href="https://hearthsim.net/legal/privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a>
+						</li>
+					</ul>
+				</section>
+				<section class="col-lg-3 col-md-6 col-sm-6 footer-menu">
+					<h2>HearthSim</h2>
+					<ul>
+						<li>
+							<a href="https://hearthsim.net/" target="_blank" rel="noopener">About Us</a>
+						</li>
+						<li>
+							<a href="https://untapped.gg/" target="_blank" rel="noopener">Untapped.gg</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+			
+		</footer>
+		
+	
+
+	
+	
+		
+			
+			
+		
+	
+	
+
+</body>
+</html>
