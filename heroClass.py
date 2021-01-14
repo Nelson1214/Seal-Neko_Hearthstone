@@ -4,6 +4,7 @@ class Hero:
         self._popularity = json_data["popularity"]
         self._avg_final_placement = json_data["avg_final_placement"]
         self._final_placement_distribution = json_data["final_placement_distribution"]
+        self._id = json_data["hero_dbf_id"]
 
     def set_name(self, name):
         self._name = name
@@ -22,3 +23,6 @@ class Hero:
 
     def get_final_placement_distribution(self):
         return self._final_placement_distribution
+
+    def get_id(self):
+        return self._id
