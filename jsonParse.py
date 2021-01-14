@@ -1,7 +1,7 @@
 import json
 from heroClass import Hero
 
-def id_to_name():
+def id_and_name():
     battle_grounds_hero_lst=[]
     id_to_name_lst=[]
     keys_lst=["dbfId", "name"]
@@ -23,7 +23,7 @@ def id_to_name():
 
     return(id_to_name_lst)
 
-def winrate():
+def id_and_data():
     f = open('./jsonFile/battleGround.json', encoding="utf-8")
     data = json.load(f)
     f.close()
@@ -34,10 +34,12 @@ def winrate():
         dict_hero[data["series"]["data"][i]["hero_dbf_id"]] = hero
     return(dict_hero)
 
-def bind_name():
-    lst = id_to_name()
-    _dict = winrate()
+def bind_id_and_name():
+    lst = id_and_name()
+    dict_hero = id_and_data()
     for i in lst:
-        # if i["dbfId"] in _dict.keys():
-        _dict[i["dbfId"]].set_name(i["name"])
-    return(_dict.values())
+        dict_hero[i["dbfId"]].set_name(i["name"])
+    return(dict_hero)
+
+def hero_data():
+    return(bind_id_and_name().values())

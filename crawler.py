@@ -1,6 +1,5 @@
 import requests
 
-
 def crawl():
     r1 = requests.get("https://api.hearthstonejson.com/v1/70986/enUS/cards.json")
     f1 = open("./jsonFile/allCards.json", "wb")
