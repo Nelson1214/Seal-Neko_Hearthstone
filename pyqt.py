@@ -32,7 +32,7 @@ class Window(QWidget):
                 heroHorizonal = QHBoxLayout()
                 heroVertical.addLayout(heroHorizonal)
             heroButton = QPushButton(hero.get_name())
-            heroButton.clicked.connect(self.setDetail(hero.get_id()))
+            heroButton.clicked.connect(lambda ch, hero=hero : self.setDetail(hero.get_id()))
             heroButton.setIcon(QIcon("./hs/" + str(hero.get_id()) + ".png")) 
             heroHorizonal.addWidget(heroButton)
         heroScroll.setLayout(heroVertical)
@@ -45,11 +45,22 @@ class Window(QWidget):
     def setRightPanel(self):
         dataVertical = QVBoxLayout()
         self.heroNameLabel = QLabel("Name : ")
+        self.getPickRateLabel = QLabel("Pick rate : ")
+        self.popularityLabel = QLabel("Popularity : ")
         dataVertical.addWidget(self.heroNameLabel)
+        dataVertical.addWidget(self.getPickRateLabel)
+        dataVertical.addWidget(self.popularityLabel)
         self.mainLayout.addLayout(dataVertical)
 
     def setDetail(self, hero_id):
-        # self.heroNameLabel.setText("Name" + str(hero_id))
+        currentHero = None
+        for hero in self.heroList:
+            if (hero.get_id() == hero_id):
+                currentHero = hero
+                break
+        self.heroNameLabel.setText("Name : " + currentHero.get_name())
+        self.getPickRateLabel.setText("Pick rate : " + str(currentHero.get_pick_rate()))
+        self.popularityLabel.setText("Popularity : " + str(currentHero.get_popularity()))
         return
 
 
