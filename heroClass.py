@@ -26,3 +26,9 @@ class Hero:
 
     def get_id(self):
         return self._id
+
+    def set_tier(self, tier):
+        self._tier = tier
+    
+    def get_tier(self):
+        return self._tier

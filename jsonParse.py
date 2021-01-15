@@ -42,4 +42,15 @@ def bind_id_and_name():
     return(dict_hero)
 
 def hero_data():
-    return(bind_id_and_name().values())
+    allHero = list(bind_id_and_name().values())
+    allHero.sort(key=lambda x: x.get_avg_final_placement())
+    for hero in allHero:
+        if (hero.get_avg_final_placement() < 4.5):
+            hero.set_tier(2)
+        elif (hero.get_avg_final_placement() < 4.75):
+            hero.set_tier(3)
+        else:
+            hero.set_tier(4)
+    allHero[0].set_tier(1)
+    allHero.sort(key=lambda x: x.get_name())
+    return(allHero)
