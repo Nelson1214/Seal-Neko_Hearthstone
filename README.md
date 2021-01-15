@@ -16,7 +16,7 @@
 ##### 程式執行部署環境與步驟詳細說明：
  - 使用python3，其他使用pip install： pyqt5, json, request, pyqtgraph
 ##### 執行畫面截圖
- - [demo](./hs/demo.png)
+ - ![demo](./hs/demo.png)
 ##### 專題優點、貢獻、好處等結論：
  - 節省查詢資料時間
 ##### 原始程式碼
