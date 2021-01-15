@@ -11,6 +11,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QIcon, QPixmap, QImage, QFont
 from PyQt5.QtCore import Qt
+import pyqtgraph as pg 
 
 class Window(QWidget):
     def __init__(self, heroList):
@@ -47,21 +48,29 @@ class Window(QWidget):
         dataVertical.setAlignment(Qt.AlignCenter)
         self.heroTierLabel = QLabel("Tier _")
         self.heroNameLabel = QLabel("Name : ")
-        self.heroNameLabel.setFont(QFont('Times', 30)) 
-        self.heroTierLabel.setFont(QFont('Times', 30)) 
+        self.heroNameLabel.setFont(QFont('Times', 20)) 
+        self.heroTierLabel.setFont(QFont('Times', 20)) 
         self.heroImage = QLabel()
         self.getPickRateLabel = QLabel("Pick rate : ")
-        self.getPickRateLabel.setFont(QFont('Times', 30)) 
+        self.getPickRateLabel.setFont(QFont('Times', 20)) 
         self.popularityLabel = QLabel("Popularity : ")
-        self.popularityLabel.setFont(QFont('Times', 30))
+        self.popularityLabel.setFont(QFont('Times', 20))
         self.averagePlacement = QLabel("Average final placement : ")
-        self.averagePlacement.setFont(QFont('Times', 30))
+        self.averagePlacement.setFont(QFont('Times', 20))
+        pg.setConfigOption('background', 'w')
+        self.plotImage = pg.plot() 
+        self.plotImage.setXRange(1, 8, padding = 0.1)
+        y = [0, 0, 0, 0, 0, 0, 0, 0] 
+        x = [1, 2, 3, 4, 5, 6, 7, 8] 
+        self.BarGraphData = pg.BarGraphItem(x = x, height = y, width = 0.6, brush ='g') 
+        self.plotImage.addItem(self.BarGraphData) 
         dataVertical.addWidget(self.heroImage)
         dataVertical.addWidget(self.heroNameLabel)
         dataVertical.addWidget(self.heroTierLabel)
         dataVertical.addWidget(self.getPickRateLabel)
         dataVertical.addWidget(self.popularityLabel)
         dataVertical.addWidget(self.averagePlacement)
+        dataVertical.addWidget(self.plotImage)
         self.mainLayout.addLayout(dataVertical)
 
     def setDetail(self, hero_id):
@@ -77,6 +86,7 @@ class Window(QWidget):
         self.getPickRateLabel.setText("Pick rate : " + str(currentHero.get_pick_rate()))
         self.popularityLabel.setText("Popularity : " + str(currentHero.get_popularity()))
         self.averagePlacement.setText("Average final placement : " + str(currentHero.get_avg_final_placement()))
+        self.BarGraphData.setOpts(height = currentHero.get_final_placement_distribution())
         return
 
 
